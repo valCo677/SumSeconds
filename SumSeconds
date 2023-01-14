@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+public class SumSecond {import java.util.Scanner;
+
 public class SumSecond {
     public static void main( String[] args ) {
         Scanner scanner = new Scanner(System.in);
@@ -10,8 +12,10 @@ public class SumSecond {
         int munutes = totalTime/60;
         int seconds = totalTime%60;
         if(seconds>10){
-            System.out.printf ("%d:0%d",munutes,seconds);
+            System.out.printf ("%d:%d",munutes,seconds);
         }else
         System.out.printf ("%d:%02d",munutes,seconds);
     }
 }
+
+  
